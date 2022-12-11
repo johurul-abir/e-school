@@ -1,0 +1,122 @@
+/*Media Query*/
+
+/*NoteBook Device*/
+@media (min-width: 575px) and (max-width: 990px){
+    header .nav-button{
+        display: none;
+        margin-left: 40px;
+    }
+    header #mobile-btn{
+        display: inline;
+        padding: 7px 15px;
+        font-size: 16px;
+    }
+    .navbar-brand {
+        text-align: left;
+        display: inline-block;
+        max-width:300px;
+    }
+    .navbar-brand img{
+        width: 70%
+    }
+    .align-items-center {
+        border-radius: 5px;
+    }
+    .feature .card {
+        margin: 15px 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 36px;
+    }
+    p {
+        padding: 30px;
+        text-align: center;
+    }
+    .banner-content{
+        padding-right:0px;
+        }
+    .course .card {
+        margin: 15px 0px;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+	
+}
+
+/*Tablet Device*/
+@media (min-width: 575px) and (max-width: 768px){
+	
+}
+
+/*Mobile Device*/
+@media (min-width: 320px) and (max-width: 575px){
+    header .nav-button{
+        display: none;
+        margin-left: 20px;
+    }
+    header #mobile-btn{
+        display: inline;
+        padding: 5px 10px;
+        font-size: 13px;
+    }
+    .navbar-brand {
+        text-align: left;
+        display: inline-block;
+        max-width: 230px;
+    }
+    .navbar-brand img{
+        width: 60%
+    }
+    .banner-content{
+        padding-right:0px;
+        }
+    .align-items-center {
+        /* background: #21B573; */
+        border-radius: 5px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        line-height: 36px;
+    }
+
+	.hero{
+        text-align: center;
+    }
+    .banner-content h5 {
+        padding-top:0px;
+    }
+    .banner-content h1 {
+        font-size: 33px;
+        line-height: 43px;
+    }
+    .feature .card {
+        margin: 15px 0px;
+    }
+    .course {
+        padding: 0px;
+    }
+    .course .card {
+        margin: 15px 0px;
+    }
+    .testimonial h2 {
+        padding-top: 30px;
+    }
+    p {
+        padding: 30px;
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+        padding: 20px 0px;
+    }
+    dl, ol, ul {
+        margin-bottom: 4rem; 
+    }
+    footer p, footer ul li a {
+    padding-top: 20px;
+    }
+
+
+}
